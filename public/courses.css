@@ -1,0 +1,83 @@
+body {
+    background-color: #e0ecf8;
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
+    font-size: 15px;
+}
+#mainBox {
+    width: 470px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-height: 495px) {
+    #mainBox {
+        top: 4px;
+        transform: translate(-50%, 0%);
+    }
+}
+#courses {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-auto-rows: 35px;
+    grid-template-areas:
+    "webDev2 webDev2Grade"
+    "webDev1 webDev1Grade"
+    "projects2 projects2Grade"
+    "projects1 projects1Grade"
+    "bizComm2 bizComm2Grade"
+    "java1 java1Grade"
+    "sql sqlGrade"
+    "appMath appMathGrade"
+    ;
+    text-align: right;
+    background-color: white;
+    padding: 0px 10px 20px 10px;
+    margin-bottom: 10px;
+    border: 2px outset white;
+}
+@media (max-width: 940px) {
+    #mainBox {
+        width: 470px;
+    }
+}
+@media (max-width: 470px) {
+    #mainBox {
+        width: 90%;
+    }
+    @media (max-height: 572px) {
+        #mainBox {
+            top: 6px;
+            transform: translate(-50%, 0%);
+        }
+    }
+    #courses {
+        grid-template-columns: 9fr 1fr;
+        grid-auto-rows: 45px;
+        font-size: 12px;
+    }
+}
+#courses h3 {
+    font-weight: normal;
+}
+.courseName {
+    text-align: left;
+    cursor: pointer;
+}
+#courses .courseName:hover {
+    text-decoration: underline;
+}
+#goBack {
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#goBack:hover {
+    background-color: white;
+    transition: 0.3s;
+}

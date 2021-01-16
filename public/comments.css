@@ -1,0 +1,80 @@
+body {
+    background-color: #e0ecf8;
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
+    font-size: 15px;
+}
+#mainBox {
+    width: 470px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-height: 560px) {
+    #mainBox {
+        top: 4px;
+        transform: translate(-50%, 0%);
+    }
+}
+#comments {
+    height: 350px;
+    background-color: white;
+    border: 2px outset white;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+#comments p {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+#input {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    border: 2px outset white;
+    margin-bottom: 10px;
+}
+#text {
+    resize: none;
+    height: 90%;
+    width: 100%;
+    border: none;
+    z-index: 5;
+}
+#send {
+    border: none;
+    background-color: white;
+    height: 99%;
+}
+@media (max-width: 940px) {
+    #mainBox {
+        width: 470px;
+    }
+}
+@media (max-width: 470px) {
+    #mainBox {
+        width: 90%;
+    }
+    @media (max-height: 565px) {
+        #mainBox {
+            top: 6px;
+            transform: translate(-50%, 0%);
+        }
+    }
+}
+#goBack {
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#goBack:hover {
+    background-color: white;
+    transition: 0.3s;
+}

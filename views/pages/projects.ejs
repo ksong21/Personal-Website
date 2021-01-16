@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="projects.css">
+    </head>
+    <body>
+        <div id="mainBox">
+            <div id="title">
+                <h1>Projects</h1>
+                <p id="desc">&nbsp;</p>
+            </div>
+            <div id="projects">
+                <h3 class="projectText" id="gridText" onclick="grid()">CSS Grid</h3><img class="projectName" id="grid" onclick="grid()" src="images/grid.png">
+                <h3 class="projectText" id="hangmanText" onclick="hangman()">Hangman</h3><img class="projectName" id="hangman" onclick="hangman()" src="images/hangman.png">
+                <h3 class="projectText" id="gemText" onclick="gem()">Gem Blaster</h3><img class="projectName" id="gem" onclick="gem()" src="images/gemblaster.png">
+                <h3 class="projectText" id="sqlText" onclick="sql()">Banking Database</h3><img class="projectName" id="sql" onclick="sql()" src="images/sql.png">
+            </div>
+            <button id="goBack" onclick="goBack()">Back</button>
+        </div>
+
+        <script src="projects.js"></script>
+    </body>
+</html>

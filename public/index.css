@@ -1,0 +1,46 @@
+body {
+    background-color: #e0ecf8;
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
+    font-size: 15px;
+}
+#mainBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-height: 250px) {
+    #mainBox {
+        top: 5px;
+        transform: translate(-50%, 0%);
+    }
+}
+@media (max-width: 295px) {
+    @media (max-height: 287px) {
+        #mainBox {
+            top: 5px;
+            transform: translate(-50%, 0%);
+        }
+    }
+}
+#options button {
+    font-size: 15px;
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+#options button:hover {
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#courses, #projects, #comments {
+    float: left;
+    width: 0px;
+    margin-top: -2px;
+}
