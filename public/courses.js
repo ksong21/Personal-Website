@@ -16,6 +16,14 @@ function scroller() {
     }
 }
 
+function java() {
+    window.open("https://www.bcit.ca/outlines/20203046383");
+}
+
+function c() {
+    window.open("https://www.bcit.ca/outlines/20203034760");
+}
+
 function webDev2() {
     window.open("https://www.bcit.ca/study/outlines/20201087580");
 }
@@ -32,20 +40,20 @@ function projects1() {
     window.open("https://www.bcit.ca/study/outlines/20201087568");
 }
 
-function bizComm2() {
-    window.open("https://www.bcit.ca/study/outlines/20202066130");
+function compArch() {
+    window.open("https://www.bcit.ca/outlines/20203034766");
 }
 
-function java1() {
-    window.open("https://www.bcit.ca/study/outlines/20201048058");
+function bizComm2() {
+    window.open("https://www.bcit.ca/study/outlines/20202066130");
 }
 
 function sql() {
     window.open("https://www.bcit.ca/study/courses/comp1630#outcomes");
 }
 
-function appMath() {
-    window.open("https://www.bcit.ca/study/outlines/20201048068");
+function math() {
+    window.open("https://www.bcit.ca/outlines/20203034757/");
 }
 
 function goBack() {

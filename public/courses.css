@@ -12,7 +12,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media (max-height: 495px) {
+@media (max-height: 560px) {
     #mainBox {
         top: 4px;
         transform: translate(-50%, 0%);
@@ -23,14 +23,16 @@ body {
     grid-template-columns: 3fr 1fr;
     grid-auto-rows: 35px;
     grid-template-areas:
+    "java javaGrade"
+    "c cGrade"
     "webDev2 webDev2Grade"
     "webDev1 webDev1Grade"
     "projects2 projects2Grade"
     "projects1 projects1Grade"
+    "compArch compArchGrade"
     "bizComm2 bizComm2Grade"
-    "java1 java1Grade"
     "sql sqlGrade"
-    "appMath appMathGrade"
+    "math mathGrade"
     ;
     text-align: right;
     background-color: white;
@@ -47,7 +49,7 @@ body {
     #mainBox {
         width: 90%;
     }
-    @media (max-height: 572px) {
+    @media (max-height: 662px) {
         #mainBox {
             top: 6px;
             transform: translate(-50%, 0%);
