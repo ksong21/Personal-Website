@@ -4,8 +4,9 @@ This project serves as a personal portfolio @ kevinsong.dev
 
 Technologies used as of now:
 - Node.js
+- Express
+- EJS
 - HTML/CSS
-- JavaScript
 - Heroku
 - Cloud Firestore
 - jQuery
